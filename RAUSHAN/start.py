@@ -16,15 +16,15 @@ async def start(bot: Client, msg: Message):
         caption=f"""✦ » ʜᴇʏ  {msg.from_user.mention}  ✤,
 ✦ » ɪ ᴀᴍ{me2},
 
-✦ » Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
+✦ » 𝗞𝗦𝗗 𝗦𝗲𝗿𝘃𝗶𝗰𝗲 𝗦𝗲𝗹𝗹 𝗕𝗼𝘁.
 
-✦ » ᴘʟᴇᴀꜱᴇ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴘʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜰᴏʀ.
+✦ » Pʟᴇᴀsᴇ Cʜᴏᴏsᴇ Tʜᴇ Sᴇʀᴠɪᴄᴇs Aɴᴅ I Wɪʟʟ Gᴜɪᴅᴇ Yᴏᴜ ʜᴏᴡ ᴛᴏ Bᴜʏ A Sᴇʀᴠɪᴄᴇ ғʀᴏᴍ KSD Sᴇʀᴠɪᴄᴇ Sᴇʟʟ Bᴏᴛ.
 
 ✦ » ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ: [•⊹٭𝙺𝚂𝙳٭⊹•](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="▪ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ ▪️", callback_data="generate")
+                    InlineKeyboardButton(text="▪ 𝗦𝗲𝗿𝘃𝗶𝗰𝗲'𝘀 ▪️", callback_data="generate")
                 ],
                 [
                     InlineKeyboardButton("🔸 sᴜᴘᴘᴏʀᴛ🔸", url="https://t.me/TEAM_RIYA_SUPPORT"),
